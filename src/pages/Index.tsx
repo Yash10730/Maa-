@@ -21,7 +21,7 @@ const Index = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Maa Bhakti Bhajan Mandli",
-          "description": "Badi Mummy की भजन मंडली — श्री राम • श्री कृष्ण • श्याम बाबा के आशीर्वाद से कीर्तन, भजन, विवाह व गृह-प्रवेश के लिए बुकिंग",
+          "description": "पारंपरिक भजन मंडली — श्री राम • श्री कृष्ण • श्याम बाबा के आशीर्वाद से कीर्तन, भजन, विवाह व गृह-प्रवेश के लिए बुकिंग",
           "image": "https://lovable.dev/opengraph-image-p98pqg.png",
           "address": {
             "@type": "PostalAddress",

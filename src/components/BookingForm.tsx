@@ -60,21 +60,21 @@ const BookingForm = () => {
   };
 
   return (
-    <section id="booking" className="py-20 bg-devotional-pattern">
+    <section id="booking" className="py-12 md:py-20 bg-devotional-pattern pb-24 md:pb-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 md:mb-4">
             बुकिंग / संपर्क
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-8 max-w-6xl mx-auto">
           <Card className="border-2 border-primary/20">
             <CardHeader>
-              <CardTitle className="text-2xl text-foreground">संपर्क जानकारी</CardTitle>
+              <CardTitle className="text-xl md:text-2xl text-foreground">संपर्क जानकारी</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="space-y-4">
+            <CardContent className="space-y-4 md:space-y-6">
+              <div className="space-y-3 md:space-y-4">
                 <a 
                   href="https://wa.me/919351704524" 
                   target="_blank" 
@@ -127,10 +127,10 @@ const BookingForm = () => {
 
           <Card className="border-2 border-primary/20">
             <CardHeader>
-              <CardTitle className="text-2xl text-foreground">बुकिंग फॉर्म</CardTitle>
+              <CardTitle className="text-xl md:text-2xl text-foreground">बुकिंग फॉर्म</CardTitle>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} className="space-y-3 md:space-y-4">
                 <div>
                   <Label htmlFor="name">नाम *</Label>
                   <Input

@@ -8,16 +8,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const FAQ = () => {
   return (
-    <section id="faq" className="py-20 bg-background">
+    <section id="faq" className="py-12 md:py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-foreground mb-8 md:mb-12">
             अक्सर पूछे जाने वाले प्रश्न
           </h2>
 
           <Card className="border-2 border-primary/20">
             <CardHeader>
-              <CardTitle className="text-2xl text-foreground">FAQ</CardTitle>
+              <CardTitle className="text-xl md:text-2xl text-foreground">FAQ</CardTitle>
             </CardHeader>
             <CardContent>
               <Accordion type="single" collapsible className="w-full">
@@ -53,7 +53,7 @@ const FAQ = () => {
                     मंडली में कितने सदस्य हैं?
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground">
-                    हमारी मंडली छोटी और पारिवारिक है — Badi Mummy के साथ 2-3 सहायक कलाकार। यह छोटे-मध्यम आयोजनों के लिए उपयुक्त है।
+                    हमारी मंडली छोटी और पारिवारिक है — 2-4 अनुभवी कलाकार। यह छोटे-मध्यम आयोजनों के लिए उपयुक्त है।
                   </AccordionContent>
                 </AccordionItem>
 
@@ -69,9 +69,9 @@ const FAQ = () => {
             </CardContent>
           </Card>
 
-          <Card className="mt-8 border-2 border-accent/30 bg-accent/5">
-            <CardContent className="p-6 text-center">
-              <p className="text-sm text-muted-foreground">
+          <Card className="mt-6 md:mt-8 border-2 border-accent/30 bg-accent/5">
+            <CardContent className="p-4 md:p-6 text-center">
+              <p className="text-xs md:text-sm text-muted-foreground">
                 <strong className="text-foreground">नोट:</strong> शुल्क कार्यक्रम की अवधि, स्थान एवं उपकरणों के आधार पर तय होंगे। 
                 Jaipur के बाहर यात्रा पर अतिरिक्त यात्रा शुल्क होगा — कॉल/व्हाट्सएप पर चर्चा कर के चुकाना होगा।
               </p>
