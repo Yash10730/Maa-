@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        devotional: {
+          saffron: "hsl(var(--devotional-saffron))",
+          "deep-blue": "hsl(var(--devotional-deep-blue))",
+          gold: "hsl(var(--devotional-gold))",
+          cream: "hsl(var(--devotional-cream))",
+          pattern: "hsl(var(--devotional-pattern))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
