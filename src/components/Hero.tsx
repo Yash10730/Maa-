@@ -10,54 +10,51 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,_hsl(var(--devotional-gold))_0%,_transparent_50%)]"></div>
       </div>
       
-      <div className="container mx-auto px-4 py-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="text-center lg:text-left space-y-8 order-2 lg:order-1">
-            <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
+      <div className="container mx-auto px-4 py-12 md:py-20 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="text-center lg:text-left space-y-6 md:space-y-8 order-2 lg:order-1">
+            <div className="space-y-3 md:space-y-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
                 Maa Bhakti Bhajan Mandli
               </h1>
-              <p className="text-2xl md:text-3xl text-primary font-semibold">
-                By Badi Mummy
-              </p>
             </div>
             
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed px-4 lg:px-0">
               "श्री राम • श्री कृष्ण • श्याम बाबा के आशीर्वाद से — आपके शुभ कार्यक्रम में भक्ति का सुंदर स्पर्श"
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start pt-2 md:pt-4 px-4 lg:px-0">
               <Button 
                 size="lg" 
-                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90"
+                className="text-base md:text-lg px-6 md:px-8 py-5 md:py-6 bg-primary hover:bg-primary/90 w-full sm:w-auto"
                 asChild
               >
                 <a href="https://wa.me/919351704524" target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="mr-2 h-5 w-5" />
+                  <MessageCircle className="mr-2 h-4 md:h-5 w-4 md:w-5" />
                   व्हाट्सएप करें
                 </a>
               </Button>
               <Button 
                 size="lg" 
                 variant="secondary"
-                className="text-lg px-8 py-6"
+                className="text-base md:text-lg px-6 md:px-8 py-5 md:py-6 w-full sm:w-auto"
                 asChild
               >
                 <a href="tel:+919351704524">
-                  <Phone className="mr-2 h-5 w-5" />
+                  <Phone className="mr-2 h-4 md:h-5 w-4 md:w-5" />
                   सीधा कॉल करें
                 </a>
               </Button>
             </div>
           </div>
           
-          <div className="flex justify-center order-1 lg:order-2">
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-3xl blur-2xl opacity-30 animate-pulse"></div>
+          <div className="flex justify-center order-1 lg:order-2 px-4">
+            <div className="relative w-full max-w-sm md:max-w-md">
+              <div className="absolute -inset-2 md:-inset-4 bg-gradient-to-r from-primary to-accent rounded-2xl md:rounded-3xl blur-xl md:blur-2xl opacity-30 animate-pulse"></div>
               <img 
                 src={badiMummyProfile} 
-                alt="Badi Mummy - Maa Bhakti Bhajan Mandli lead singer in traditional devotional attire"
-                className="relative rounded-3xl shadow-2xl max-w-md w-full border-4 border-card"
+                alt="Maa Bhakti Bhajan Mandli lead singer in traditional devotional attire"
+                className="relative rounded-2xl md:rounded-3xl shadow-2xl w-full border-2 md:border-4 border-card"
               />
             </div>
           </div>

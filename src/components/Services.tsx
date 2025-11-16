@@ -31,18 +31,18 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-card">
+    <section id="services" className="py-12 md:py-20 bg-card">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+        <div className="text-center mb-10 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 md:mb-4">
             हमारी सेवाएँ
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             हमारी भजन मंडली पारंपरिक और आधुनिक भजनों का सुंदर संगम प्रस्तुत करती है
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-10 md:mb-16">
           {services.map((service, index) => (
             <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
               <CardHeader>
@@ -60,31 +60,31 @@ const Services = () => {
 
         <Card className="bg-gradient-to-r from-primary/5 to-accent/5 border-2 border-primary/20">
           <CardHeader>
-            <CardTitle className="text-2xl text-center text-foreground mb-4">हाइलाइट्स</CardTitle>
+            <CardTitle className="text-xl md:text-2xl text-center text-foreground mb-3 md:mb-4">हाइलाइट्स</CardTitle>
           </CardHeader>
           <CardContent>
-            <ul className="space-y-4 text-foreground">
+            <ul className="space-y-3 md:space-y-4 text-foreground">
               <li className="flex items-start">
-                <span className="text-primary mr-3 text-2xl">•</span>
-                <span className="text-lg">
-                  <strong>अनुभवी मुखिया:</strong> Badi Mummy — मधुर, भक्तिमय आवाज़
+                <span className="text-primary mr-2 md:mr-3 text-xl md:text-2xl">•</span>
+                <span className="text-base md:text-lg">
+                  <strong>अनुभवी मुखिया</strong> — मधुर, भक्तिमय आवाज़
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-3 text-2xl">•</span>
-                <span className="text-lg">
+                <span className="text-primary mr-2 md:mr-3 text-xl md:text-2xl">•</span>
+                <span className="text-base md:text-lg">
                   हार्मोनियम, तबला/ढोलक उपलब्ध; छोटा माइक/स्पीकर उपलब्ध
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-3 text-2xl">•</span>
-                <span className="text-lg">
+                <span className="text-primary mr-2 md:mr-3 text-xl md:text-2xl">•</span>
+                <span className="text-base md:text-lg">
                   छोटे-स्थानीय और मध्यम कार्यक्रमों के लिए उपयुक्त
                 </span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-3 text-2xl">•</span>
-                <span className="text-lg">
+                <span className="text-primary mr-2 md:mr-3 text-xl md:text-2xl">•</span>
+                <span className="text-base md:text-lg">
                   यात्रा शुल्क और अतिरिक्त व्यवस्था के लिए कॉल पर चर्चा
                 </span>
               </li>
